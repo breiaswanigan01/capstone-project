@@ -2,8 +2,8 @@ import React from "react";
 function Nav() {
     return (
         <>
-        <nav>
-<ul>
+        <nav style={{}}>
+<ul style={{display:"flex", justifyContent:"space-evenly",listStyleType:"none"}}>
 <li><a href="#">Home </a></li>
 <li><a href="#">About </a></li>
 <li><a href="#">Reservations </a></li>
@@ -12,9 +12,9 @@ function Nav() {
 
 
 </ul>
+ </nav>
+{/* <nav style={{display:"grid", gridTemplateRows:"repeat(5, 1fr)", backgroundColor:"pink"}}></nav> */}
 
-
-        </nav>
         </>
     )
 }
