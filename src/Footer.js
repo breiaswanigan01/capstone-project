@@ -1,19 +1,20 @@
 import React from "react";
-import Logo from "./little-lemon-logo.png";
+import Logo from  "./second-lemon-img.jpeg";
+
 function Footer() {
     return (
         <>
         <footer style={{display:"grid", gridTemplateColumns:"repeat(4, 1fr)" }}>
- <img src={Logo} alt="little lemon logo"  />
+ <img src={Logo} className="footer-img"alt="little lemon logo"  />
 
         <nav>
  <ul style={{listStyleType:"none"}}>
  <h5>Doormat Nav</h5>
 
-<li style={{listStyleType:"none"}}><a href="#">Home </a></li>
-<li><a href="#">About </a></li>
-<li><a href="#" >Reservations </a></li>
-<li><a href="#">Order Online </a></li>
+<li style={{listStyleType:"none"}}><a href="http://localhost:3000/">Home </a></li>
+<li><a href="http://localhost:3000/chicago">About </a></li>
+<li><a href="http://localhost:3000/booking" >Reservations </a></li>
+<li><a href="http://localhost:3000/menu">Order Online </a></li>
 <li><a href="#">Login </a></li>
 </ul>
  </nav>
